@@ -1,0 +1,100 @@
+
+nav a {
+    color: black;
+    text-decoration: none; 
+    padding: 14px 20px;
+    margin: 0 55px;
+}
+
+.header {
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    background-color: rgb(23, 125, 233); 
+    padding: 10px 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 400px; 
+    object-fit: cover; 
+}
+
+
+.carousel {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+
+}
+.sectionhistoria {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .footer {
+    background-color: #334; 
+    padding: 20px; 
+    text-align: center; 
+  }
+  .footer p {
+    color: rgb(23, 125, 233); 
+    font-size: 16px; 
+    margin: 0; 
+  }
+
+
+  .footer i {
+    font-size: 40px; 
+    margin: 0 15px; 
+    transition: color 0.3s ease; 
+  }
+  
+  .footer .fi-brands-youtube {
+    color: rgb(23, 125, 233); 
+  }
+  
+  .footer .fi-brands-instagram {
+    color: rgb(23, 125, 233);
+    }
+  
+  
+  .footer i:hover {
+    color: white; 
+  }
+  @media (max-width: 768px) {
+    nav a {
+        margin: 0 20px; 
+        padding: 10px; 
+    }
+
+    .footer {
+        padding: 10px; 
+    }
+
+    .footer i {
+        font-size: 30px; 
+    }
+
+    .carousel-inner img {
+        max-height: 250px; 
+    }
+
+    .sectionhistoria {
+        padding: 10px; 
+    }
+}
+
+@media (max-width: 576px) {
+    nav a {
+        display: block; 
+        margin: 5px 0; 
+    }
+
+    .footer {
+        text-align: center; 
+    }
+ }
